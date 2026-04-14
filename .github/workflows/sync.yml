@@ -10,47 +10,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: 下载源+生成分组+港澳台拼音排序
+      - name: 自动下载iptvz源并生成可用的m3u
         run: |
           # 下载源
           curl -s "https://raw.githubusercontent.com/q1017673817/iptvz/main/%E7%BB%84%E6%92%AD_%E6%B9%96%E5%8D%97%E7%94%B5%E4%BF%A1.txt" -o source.txt
-          
-          # 定义输出文件
-          output="output/result.m3u"
-          echo '#EXTM3U x-tvg-url="https://ghproxy.com/https://raw.githubusercontent.com/skipandgoon/iptv-api/master/output/epg/epg.gz"' > $output
 
-          # 临时文件分类
-          cctv=""
-          ws=""
-          gat=""
+          # 生成可用的 result.m3u
+          echo '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/skipandgoon/iptv-api/master/output/epg/epg.gz"' > output/result.m3u
 
           while IFS=, read -r name url || [ -n "$name" ]; do
-            [[ -z "$name" || -z "$url" ]] && continue
-            logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/$name.png"
-
-            if [[ "$name" == CCTV* ]]; then
-              cctv+="#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"📺 央视频道\",$name\n$url\n"
-            elif [[ "$name" == *卫视 ]]; then
-              ws+="#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"📡 卫视频道\",$name\n$url\n"
-            else
-              gat+="$name|$url|$logo\n"
+            if [[ "$name" == *#genre#* ]]; then
+              group="${name%%,*}"
+              continue
             fi
+            if [[ -z "$name" || -z "$url" ]]; then
+              continue
+            fi
+            echo "#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/$name.png\" group-title=\"$group\",$name" >> output/result.m3u
+            echo "$url" >> output/result.m3u
           done < source.txt
-
-          # 输出央视 + 卫视
-          echo -e "$cctv" >> $output
-          echo -e "$ws" >> $output
-
-          # 港澳台按【拼音排序】后输出
-          echo -e "$gat" | sort | while IFS="|" read -r name url logo; do
-            echo "#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"☘️ 港澳台/其他\",$name" >> $output
-            echo "$url" >> $output
-          done
 
       - name: 提交更新
         run: |
           git config --global user.name "bot"
           git config --global user.email "bot@github.com"
           git add output/result.m3u
-          git commit -m "更新直播源【分组+港澳台拼音排序】"
+          git commit -m "更新 IPTV 源"
           git push
