@@ -1,90 +1,56 @@
 name: Weekly Update
 on:
   schedule:
-    - cron: '0 2 * * 5'
     - cron: '0 3 * * 5'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  sync-upstream:
-    if: ${{ github.event.schedule == '0 2 * * 5' || github.event_name == 'workflow_dispatch' }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: master
 
-      - name: 同步上游仓库
+      - name: 下载源+生成分组+港澳台拼音排序
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote add upstream https://github.com/Guovin/iptv-api.git || true
-          git fetch upstream
-          git checkout master
-          git merge --ff-only upstream/master || true
-          git push origin master || true
+          # 下载源
+          curl -s "https://raw.githubusercontent.com/q1017673817/iptvz/main/%E7%BB%84%E6%92%AD_%E6%B9%96%E5%8D%97%E7%94%B5%E4%BF%A1.txt" -o source.txt
+          
+          # 定义输出文件
+          output="output/result.m3u"
+          echo '#EXTM3U x-tvg-url="https://ghproxy.com/https://raw.githubusercontent.com/skipandgoon/iptv-api/master/output/epg/epg.gz"' > $output
 
-  build-and-test:
-    needs: sync-upstream
-    if: ${{ always() && (github.event.schedule == '0 3 * * 5' || github.event_name == 'workflow_dispatch') }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: master
+          # 临时文件分类
+          cctv=""
+          ws=""
+          gat=""
 
-      - name: 安装依赖
-        run: |
-          sudo apt update
-          sudo apt install -y ffmpeg
-          pip install -r requirements.txt >/dev/null 2>&1
+          while IFS=, read -r name url || [ -n "$name" ]; do
+            [[ -z "$name" || -z "$url" ]] && continue
+            logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/$name.png"
 
-      - name: 生成自定义源 user_demo.txt（不冲突原版）
-        run: |
-          mkdir -p config
-          curl -s "https://raw.githubusercontent.com/q1017673817/iptvz/main/%E7%BB%84%E6%92%AD_%E6%B9%96%E5%8D%97%E7%94%B5%E4%BF%A1.txt" -o raw.txt
+            if [[ "$name" == CCTV* ]]; then
+              cctv+="#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"📺 央视频道\",$name\n$url\n"
+            elif [[ "$name" == *卫视 ]]; then
+              ws+="#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"📡 卫视频道\",$name\n$url\n"
+            else
+              gat+="$name|$url|$logo\n"
+            fi
+          done < source.txt
 
-          # 生成到 user_demo.txt，不碰原版 demo.txt
-          echo "#EXTM3U" > config/user_demo.txt
-          echo "" >> config/user_demo.txt
+          # 输出央视 + 卫视
+          echo -e "$cctv" >> $output
+          echo -e "$ws" >> $output
 
-          # 📺 央视频道
-          echo "#genre#" >> config/user_demo.txt
-          echo "📺 央视频道" >> config/user_demo.txt
-          grep -i "CCTV" raw.txt | sort >> config/user_demo.txt
-          echo "" >> config/user_demo.txt
-
-          # 📡 卫视频道
-          echo "#genre#" >> config/user_demo.txt
-          echo "📡 卫视频道" >> config/user_demo.txt
-          grep "卫视" raw.txt | sort >> config/user_demo.txt
-          echo "" >> config/user_demo.txt
-
-          # ☘️ 港澳台/其他
-          echo "#genre#" >> config/user_demo.txt
-          echo "☘️ 港澳台/其他" >> config/user_demo.txt
-          grep -v -i "CCTV" raw.txt | grep -v "卫视" | sort >> config/user_demo.txt
-
-          rm -f raw.txt
-
-      - name: 替换源文件 → 让项目使用 user_demo.txt
-        run: |
-          # 关键：把我们生成的文件复制为实际使用的 demo.txt
-          # 不修改原版，只在运行时替换
-          cp config/user_demo.txt config/demo.txt
-
-      - name: 运行测速生成最终线路
-        run: |
-          python main.py
+          # 港澳台按【拼音排序】后输出
+          echo -e "$gat" | sort | while IFS="|" read -r name url logo; do
+            echo "#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"☘️ 港澳台/其他\",$name" >> $output
+            echo "$url" >> $output
+          done
 
       - name: 提交更新
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add config/user_demo.txt output/result.m3u
-          git commit -m "✅ Auto update: user source + speed test" || true
-          git push || true
+          git config --global user.name "bot"
+          git config --global user.email "bot@github.com"
+          git add output/result.m3u
+          git commit -m "更新直播源【分组+港澳台拼音排序】"
+          git push
