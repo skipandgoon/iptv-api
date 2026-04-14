@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   sync-upstream:
-    if: github.event.schedule == '0 2 * * 5'
+    if: ${{ github.event.schedule == '0 2 * * 5' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
           ref: master
 
-      - name: Sync upstream
+      - name: 同步上游仓库
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -26,53 +26,65 @@ jobs:
           git fetch upstream
           git checkout master
           git merge --ff-only upstream/master || true
-          git push origin master
+          git push origin master || true
 
   build-and-test:
     needs: sync-upstream
-    if: github.event.schedule == '0 3 * * 5' || github.event_name == 'workflow_dispatch'
+    if: ${{ always() && (github.event.schedule == '0 3 * * 5' || github.event_name == 'workflow_dispatch') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: master
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: |
           sudo apt update
           sudo apt install -y ffmpeg
           pip install -r requirements.txt >/dev/null 2>&1
 
-      - name: Generate demo.txt (correct format)
+      - name: 生成自定义源 user_demo.txt（不冲突原版）
         run: |
           mkdir -p config
           curl -s "https://raw.githubusercontent.com/q1017673817/iptvz/main/%E7%BB%84%E6%92%AD_%E6%B9%96%E5%8D%97%E7%94%B5%E4%BF%A1.txt" -o raw.txt
 
-          echo "#EXTM3U" > config/demo.txt
-          echo "" >> config/demo.txt
+          # 生成到 user_demo.txt，不碰原版 demo.txt
+          echo "#EXTM3U" > config/user_demo.txt
+          echo "" >> config/user_demo.txt
 
-          echo "#genre#" >> config/demo.txt
-          echo "📺 央视频道" >> config/demo.txt
-          grep -i "CCTV" raw.txt | sort >> config/demo.txt
-          echo "" >> config/demo.txt
+          # 📺 央视频道
+          echo "#genre#" >> config/user_demo.txt
+          echo "📺 央视频道" >> config/user_demo.txt
+          grep -i "CCTV" raw.txt | sort >> config/user_demo.txt
+          echo "" >> config/user_demo.txt
 
-          echo "#genre#" >> config/demo.txt
-          echo "📡 卫视频道" >> config/demo.txt
-          grep "卫视" raw.txt | sort >> config/demo.txt
-          echo "" >> config/demo.txt
+          # 📡 卫视频道
+          echo "#genre#" >> config/user_demo.txt
+          echo "📡 卫视频道" >> config/user_demo.txt
+          grep "卫视" raw.txt | sort >> config/user_demo.txt
+          echo "" >> config/user_demo.txt
 
-          echo "#genre#" >> config/demo.txt
-          echo "☘️ 港澳台/其他" >> config/demo.txt
-          grep -v "CCTV" raw.txt | grep -v "卫视" | sort >> config/demo.txt
+          # ☘️ 港澳台/其他
+          echo "#genre#" >> config/user_demo.txt
+          echo "☘️ 港澳台/其他" >> config/user_demo.txt
+          grep -v -i "CCTV" raw.txt | grep -v "卫视" | sort >> config/user_demo.txt
 
-      - name: Run speed test
+          rm -f raw.txt
+
+      - name: 替换源文件 → 让项目使用 user_demo.txt
+        run: |
+          # 关键：把我们生成的文件复制为实际使用的 demo.txt
+          # 不修改原版，只在运行时替换
+          cp config/user_demo.txt config/demo.txt
+
+      - name: 运行测速生成最终线路
         run: |
           python main.py
 
-      - name: Commit and push
+      - name: 提交更新
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add config/demo.txt output/result.m3u
-          git commit -m "✅ Auto update: sync + generate + test" || true
-          git push
+          git add config/user_demo.txt output/result.m3u
+          git commit -m "✅ Auto update: user source + speed test" || true
+          git push || true
