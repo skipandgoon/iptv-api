@@ -1,56 +1,78 @@
-name: 更新直播源
+name: Weekly Update
 on:
   schedule:
+    - cron: '0 2 * * 5'
     - cron: '0 3 * * 5'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  sync-upstream:
+    if: github.event.schedule == '0 2 * * 5'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: master
 
-      - name: 下载源+生成分组+港澳台拼音排序
+      - name: Sync upstream
         run: |
-          # 下载源
-          curl -s "https://raw.githubusercontent.com/q1017673817/iptvz/main/%E7%BB%84%E6%92%AD_%E6%B9%96%E5%8D%97%E7%94%B5%E4%BF%A1.txt" -o source.txt
-          
-          # 定义输出文件
-          output="output/result.m3u"
-          echo '#EXTM3U x-tvg-url="https://ghproxy.com/https://raw.githubusercontent.com/skipandgoon/iptv-api/master/output/epg/epg.gz"' > $output
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/Guovin/iptv-api.git || true
+          git fetch upstream
+          git checkout master
+          git merge --ff-only upstream/master || true
+          git push origin master
 
-          # 临时文件分类
-          cctv=""
-          ws=""
-          gat=""
+  build-and-test:
+    needs: sync-upstream
+    if: github.event.schedule == '0 3 * * 5' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
 
-          while IFS=, read -r name url || [ -n "$name" ]; do
-            [[ -z "$name" || -z "$url" ]] && continue
-            logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons/icons/TV/$name.png"
-
-            if [[ "$name" == CCTV* ]]; then
-              cctv+="#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"📺 央视频道\",$name\n$url\n"
-            elif [[ "$name" == *卫视 ]]; then
-              ws+="#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"📡 卫视频道\",$name\n$url\n"
-            else
-              gat+="$name|$url|$logo\n"
-            fi
-          done < source.txt
-
-          # 输出央视 + 卫视
-          echo -e "$cctv" >> $output
-          echo -e "$ws" >> $output
-
-          # 港澳台按【拼音排序】后输出
-          echo -e "$gat" | sort | while IFS="|" read -r name url logo; do
-            echo "#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"☘️ 港澳台/其他\",$name" >> $output
-            echo "$url" >> $output
-          done
-
-      - name: 提交更新
+      - name: Install dependencies
         run: |
-          git config --global user.name "bot"
-          git config --global user.email "bot@github.com"
-          git add output/result.m3u
-          git commit -m "更新直播源"
+          sudo apt update
+          sudo apt install -y ffmpeg
+          pip install -r requirements.txt >/dev/null 2>&1
+
+      - name: Generate demo.txt (correct format)
+        run: |
+          mkdir -p config
+          curl -s "https://raw.githubusercontent.com/q1017673817/iptvz/main/%E7%BB%84%E6%92%AD_%E6%B9%96%E5%8D%97%E7%94%B5%E4%BF%A1.txt" -o raw.txt
+
+          echo "#EXTM3U" > config/demo.txt
+          echo "" >> config/demo.txt
+
+          echo "#genre#" >> config/demo.txt
+          echo "📺 央视频道" >> config/demo.txt
+          grep -i "CCTV" raw.txt | sort >> config/demo.txt
+          echo "" >> config/demo.txt
+
+          echo "#genre#" >> config/demo.txt
+          echo "📡 卫视频道" >> config/demo.txt
+          grep "卫视" raw.txt | sort >> config/demo.txt
+          echo "" >> config/demo.txt
+
+          echo "#genre#" >> config/demo.txt
+          echo "☘️ 港澳台/其他" >> config/demo.txt
+          grep -v "CCTV" raw.txt | grep -v "卫视" | sort >> config/demo.txt
+
+      - name: Run speed test
+        run: |
+          python main.py
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add config/demo.txt output/result.m3u
+          git commit -m "✅ Auto update: sync + generate + test" || true
           git push
