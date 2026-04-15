@@ -20,9 +20,11 @@ https://gitee.com/main-stream/tv/raw/master/BOSS.json
 https://raw.githubusercontent.com/alantang1977/iptv-auto/refs/heads/main/my.txt
 https://raw.githubusercontent.com/iodata999/frxz751113-IPTVzb1/refs/heads/main/结果.txt
 https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/网络收集.txt
-https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt
 https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/gqds+.txt
 https://raw.githubusercontent.com/develop202/migu_video/main/interfaceTXT.txt
+https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
+https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
+https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
