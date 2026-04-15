@@ -3,15 +3,26 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA:
 # https://xxx.com/subscribe.m3u UA="xxx"
+https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
 https://myernestlu.github.io/zby.txt
 https://raw.githubusercontent.com/q1017673817/iptvz/main/zubo_all.txt
 https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 https://raw.githubusercontent.com/wujiangliu/live-sources/main/%E7%94%B5%E8%A7%86%E5%AE%B6.m3u
-https://live.zbds.top/tv/iptv4.m3u
 https://raw.githubusercontent.com/ngo5/IPTV/main/m3u/ipv4.m3u
 https://live.zbds.top/tv/iptv4.txt
-https://myernestlu.github.io/zby.txt
 https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.txt
+https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt
+https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt
+https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u
+https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆无18内容
+https://gitee.com/main-stream/tv/raw/master/BOSS.json
+https://raw.githubusercontent.com/alantang1977/iptv-auto/refs/heads/main/my.txt
+https://raw.githubusercontent.com/iodata999/frxz751113-IPTVzb1/refs/heads/main/结果.txt
+https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/网络收集.txt
+https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt
+https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/gqds+.txt
+https://raw.githubusercontent.com/develop202/migu_video/main/interfaceTXT.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
