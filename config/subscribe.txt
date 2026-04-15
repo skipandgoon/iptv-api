@@ -10,7 +10,6 @@ https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 https://raw.githubusercontent.com/wujiangliu/live-sources/main/%E7%94%B5%E8%A7%86%E5%AE%B6.m3u
 https://raw.githubusercontent.com/ngo5/IPTV/main/m3u/ipv4.m3u
 https://live.zbds.top/tv/iptv4.txt
-https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.txt
 https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt
 https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
@@ -25,6 +24,8 @@ https://raw.githubusercontent.com/develop202/migu_video/main/interfaceTXT.txt
 https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
 https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
 https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
+
+# https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
