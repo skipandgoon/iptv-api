@@ -1,6 +1,6 @@
-# 这是频道名称的别名名单，用于获取接口时将多种名称映射为一个名称的结果，可以提升获取量与准确率
+# 这是频道名称的别名名单,用于获取接口时将多种名称映射为一个名称的结果,可以提升获取量与准确率
 # 格式：主名（对应demo.txt模板中的频道名称）,别名1,别名2,别名3
-# 支持使用正则表达式匹配别名，以re:开头的别名将被识别为正则表达式，例如CCTV-1,re:(?i)^\s*CCTV[-\s_]*0?1(?![0-9Kk+])[\s\S]*$
+# 支持使用正则表达式匹配别名,以re:开头的别名将被识别为正则表达式,例如CCTV-1,re:(?i)^\s*CCTV[-\s_]*0?1(?![0-9Kk+])[\s\S]*$
 # This is the alias list for channel names, used to map multiple names to a single name when fetching from the interface, improving the fetch volume and accuracy.
 # Format: Main name (corresponds to channel name in demo.txt template), alias1, alias2, alias3
 # Aliases support regex matching. Aliases starting with re: are recognized as regular expressions, e\.g\. CCTV-1,re:(?i)^\s*CCTV[-\s_]*0?1(?![0-9Kk+])[\s\S]*$
@@ -57,8 +57,29 @@ CGTN俄语,CGTN俄罗斯语
 翡翠台,TVb翡翠台,tvb翡翠台,TVB翡翠台
 明珠台,TVb明珠台,tvb明珠台,TVB明珠台,TVB Pearl
 北京卫视,北京卫视4K,北京卫视4K超高清
-凤凰中文,凤凰卫视中文台
+凤凰中文,凤凰卫视中文台,凤凰卫视
 凤凰香港,凤凰卫视香港台
+香港卫视,香港衛視,HKS TV
+TVBS Asia,TVBS亚洲
+TVB星河频道,TVB星河,tvb星河,TVB星河頻道,TVB Xing He HD,TVB Xing He
+纬来体育,緯來體育台,緯來體育
+纬来育乐,緯來育樂台,緯來育樂
+纬来电影,緯來電影台,緯來電影
+靖天资讯,靖天資訊HD,靖天資訊
+靖天映画,靖天映畫HD,靖天映畫
+靖天戏剧,靖天戲劇台,靖天戲劇
+Viutv,viutv
+三立台湾,三立台灣台,三立台灣
+三立新闻,三立新聞網,三立新聞,三立新聞台
+EBCFinancialNews,东森财经新闻,东森财经新闻,東森財經新聞
+EBCMovies,东森电影,东森电影,東森電影
+EBCNews,东森新闻,东森新闻,東森新聞
+EBCSuper,东森超视,东森超视,東森超視
+EBCVariety,东森综合,东森综合,東森綜合
+EBCWesternMovies,东森洋片,东森洋片,東森洋片
+EBCYoYoTV,东森幼幼,东森幼幼台,東森幼幼
+艾尔达娱乐,ELTA娱乐,ELTA娛樂,elta娱乐,elta娛樂
+
 福建文体,福建体育
 福建经济,福建经视
 FZTV1,FZTV-1,福州综合,福州1-新闻
@@ -80,23 +101,27 @@ CGTN 英語頻道,RTHK35,RTHK 35,RTHK-35
 赣州新闻,GZSXW,GZSNews
 
 北京卡酷少儿,卡酷少儿,卡酷少儿高清,卡酷少儿HD,北京卡酷少儿HD,卡酷少儿高码,北京卡酷少儿高码,KAKU,kaku,KaKu,卡酷动画,卡酷动画HD
+少儿动画,IPTV少儿动画
 
-黑莓电影,NewTV黑莓电影
-黑莓动画,NewTV黑莓动画
-家庭剧场,NewTV家庭剧场
-惊悚悬疑,NewTV惊悚悬疑
-超级电影,NewTV超级电影
-动作电影,NewTV动作电影
-哒啵电竞,NewTV哒啵电竞
+IPTV高清院线,IPTV高清院线,高清院线,iptv高清院线
+IPTV古装剧场,IPTV古装剧场,古装剧场,iptv古装剧场
+IPTV经典电影,IPTV经典电影,经典电影,iptv经典电影
+IPTV经典剧场,IPTV经典剧场,经典剧场,iptv经典剧场
+IPTV抗战剧场,IPTV抗战剧场,抗战剧场,iptv抗战剧场
+IPTV魅力时尚,IPTV魅力时尚,魅力时尚,iptv魅力时尚
+IPTV热播剧场,IPTV热播剧场,热播剧场,iptv热播剧场
+IPTV少儿动画,IPTV少儿动画,少儿动画,iptv少儿动画
+IPTV相声小品,IPTV相声小品,相声小品,iptv相声小品
+
 
 游戏风云,SiTV游戏风云
 动漫秀场,SiTV动漫秀场
 游戏风云.SiTV游戏风云
 
-爱动漫,iHOT爱动漫
-新动漫,iHOT新动漫
-爱幼教,iHOT爱幼教
-爱电竞,iHOT爱电竞
+爱动漫,iHOT爱动漫,IHOT爱动漫
+新动漫,iHOT新动漫,IHOT新动漫
+爱幼教,iHOT爱幼教,IHOT爱幼教
+爱电竞,iHOT爱电竞,IHOT爱电竞
 
 电竞天堂,BesTV电竞天堂
 宝宝动画,BesTV宝宝动画
@@ -106,10 +131,12 @@ CGTN 英語頻道,RTHK35,RTHK 35,RTHK-35
 哈哈炫动,炫动卡通,上海哈哈炫动
 优漫卡通,江苏优漫卡通
 
+NewTV超级电影,NEWTV超级电影,超级电影
 NewTV爱情喜剧,NEWTV爱情喜剧,爱情喜剧
 NewTV超级体育,NEWTV超级体育,超级体育
 NewTV哒啵赛事,NEWTV哒啵赛事,哒啵赛事
-NewTV动作电影,NEWTV动作电影
+NewTV哒啵电竞,NEWTV哒啵电竞,哒啵电竞
+NewTV动作电影,NEWTV动作电影,动作电影
 NewTV古装剧场,NEWTV古装剧场,古装剧场
 NewTV海外剧场,NEWTV海外剧场,海外剧场
 NewTV黑莓电影,NEWTV黑莓电影,黑莓电影
@@ -139,7 +166,7 @@ NewTV中国功夫,NEWTV中国功夫,中国功夫
 湖南都市频道,湖南都市
 湖南公共频道,湖南公共
 湖南国际频道,湖南国际
-湖南教育台,湖南教育
+湖南教育台,湖南教育,湖南教育频道
 湖南经视频道,湖南经视
 湖南娱乐频道,湖南娱乐
 宁乡综合频道,宁乡综合
@@ -161,7 +188,7 @@ NewTV中国功夫,NEWTV中国功夫,中国功夫
 常德新闻综合,常德新闻
 津市电视台,津市电视
 桃源综合频道,桃源综合
-张家界1新闻综合,张家界1新闻
+张家界1新闻综合,张家界1新闻,张家界新闻1,张家界新闻综合1
 张家界2公共频道,张家界2公共
 张家界公共频道,张家界公共
 张家界新闻综合,张家界新闻
