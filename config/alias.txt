@@ -103,15 +103,15 @@ CGTN 英語頻道,RTHK35,RTHK 35,RTHK-35
 北京卡酷少儿,卡酷少儿,卡酷少儿高清,卡酷少儿HD,北京卡酷少儿HD,卡酷少儿高码,北京卡酷少儿高码,KAKU,kaku,KaKu,卡酷动画,卡酷动画HD
 少儿动画,IPTV少儿动画
 
-IPTV高清院线,IPTV高清院线,高清院线,iptv高清院线
-IPTV古装剧场,IPTV古装剧场,古装剧场,iptv古装剧场
-IPTV经典电影,IPTV经典电影,经典电影,iptv经典电影
-IPTV经典剧场,IPTV经典剧场,经典剧场,iptv经典剧场
-IPTV抗战剧场,IPTV抗战剧场,抗战剧场,iptv抗战剧场
-IPTV魅力时尚,IPTV魅力时尚,魅力时尚,iptv魅力时尚
-IPTV热播剧场,IPTV热播剧场,热播剧场,iptv热播剧场
-IPTV少儿动画,IPTV少儿动画,少儿动画,iptv少儿动画
-IPTV相声小品,IPTV相声小品,相声小品,iptv相声小品
+高清院线,IPTV高清院线,IPTV高清院线,iptv高清院线
+古装剧场,IPTV古装剧场,IPTV古装剧场,iptv古装剧场
+经典电影,IPTV经典电影,IPTV经典电影,iptv经典电影
+经典剧场,IPTV经典剧场,IPTV经典剧场,iptv经典剧场
+抗战剧场,IPTV抗战剧场,IPTV抗战剧场,iptv抗战剧场
+魅力时尚,IPTV魅力时尚,IPTV魅力时尚,iptv魅力时尚
+热播剧场,IPTV热播剧场,IPTV热播剧场,iptv热播剧场
+少儿动画,IPTV少儿动画,IPTV少儿动画,iptv少儿动画
+相声小品,IPTV相声小品,IPTV相声小品,iptv相声小品
 
 
 游戏风云,SiTV游戏风云
