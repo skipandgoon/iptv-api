@@ -340,12 +340,12 @@ CCTV17,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226660/1.m3u8
 汕头3,
 汕头3,
 
-汕头1HD,http://115.29.208.41:39999/gdczdx.php?id=1000
-汕头2HD,http://115.29.208.41:39999/gdczdx.php?id=1001
+汕头1HD,http://183.10.180.81:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+汕头2HD,http://183.10.180.81:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 汕头3HD,
 
-汕头1HD,http://www.8888866.xyz:10000/udp/239.253.43.45:5146
-汕头2HD,http://www.8888866.xyz:10000/udp/239.253.43.46:5146
+汕头1HD,http://183.10.180.36:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+汕头2HD,http://183.10.180.36:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 汕头3HD,http://ikuai.cyruslee.top:8888/udp/239.253.43.45:5146
 
 汕头1HD,http://xhzza.v6.navy:34040/udp/239.253.43.45:5146
