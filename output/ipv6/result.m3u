@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/skipandgoon/iptv-api/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CCTV-1.png" group-title="🕘️更新时间",2026-04-16 15:09:05
+#EXTINF:-1 tvg-id="更新时间" tvg-name="更新时间" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/更新时间.png" group-title="🕘️更新时间",2026-04-16 18:38:54
 https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CCTV-1.png" group-title="📺央视频道",CCTV-1
 https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
