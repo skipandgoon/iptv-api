@@ -2,17 +2,17 @@
 
 CCTV1综合,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv1
 CCTV1综合,http://115.29.208.41:34567/gd.php?id=cctv1&kl=www.9kds.com
-CCTV1综合,http://go.bkpcp.top/mg/cctv1
+CCTV1综合,http://124.236.93.22:2380/hw1live.rxip.sc96655.com.huan.tv/live/CCTV-1H265_4000.m3u8
 CCTV1综合,http://61.178.227.57:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 
 CCTV2财经,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv2
 CCTV2财经,http://115.29.208.41:34567/gd.php?id=cctv2&kl=www.9kds.com
-CCTV2财经,http://go.bkpcp.top/mg/cctv2
+CCTV2财经,http://124.236.93.22:2380/hw1live.rxip.sc96655.com.huan.tv/live/CCTV-2H265_4000.m3u8
 CCTV2财经,http://61.178.227.57:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 
 CCTV3综艺,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv3
 CCTV3综艺,http://115.29.208.41:34567/gd.php?id=cctv3&kl=www.9kds.com
-CCTV3综艺,http://go.bkpcp.top/mg/cctv3
+CCTV3综艺,http://124.236.93.22:2380/hw1live.rxip.sc96655.com.huan.tv/live/CCTV-3H265_4000.m3u8
 CCTV3综艺,http://61.178.227.57:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 
 CCTV4中文国际,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv4
@@ -329,27 +329,27 @@ CCTV17,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226660/1.m3u8
 
 汕头小公园,https://gctxyc.liveplay.myqcloud.com/gc/bsszjs_1_md.m3u8#https://gctxyc.liveplay.myqcloud.com:443/gc/bsszjs_1/index.m3u8?contentid=2820180516001#https://gctxyc.liveplay.myqcloud.com:443/gc/bsszjs_1_md.m3u8
 
-汕头1,http://183.10.180.192:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+汕头1,http://47.100.29.86:21345/gd.php?id=gd-st-1-4
 汕头1,http://183.10.180.219:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 汕头1,http://120.238.5.44:1698/hls/5/index.m3u8
 
-汕头2,http://183.10.180.192:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
+汕头2,http://47.100.29.86:21345/gd.php?id=gd-st-2-3
 汕头2,http://183.10.180.219:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 汕头2,http://120.238.5.44:1698/hls/6/index.m3u8
 
 汕头3,
 汕头3,
 
-汕头1HD,http://183.10.180.81:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-汕头2HD,http://183.10.180.81:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
+汕头1HD,http://gddx.zubo.cc.cd:8888/rtp/239.253.43.45:5146
+汕头2HD,http://gddx.zubo.cc.cd:8888/rtp/239.253.43.46:5146
 汕头3HD,
 
-汕头1HD,http://183.10.180.36:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-汕头2HD,http://183.10.180.36:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
+汕头1HD,http://47.100.29.86:21345/gd.php?id=gd-st-1-1
+汕头2HD,http://47.100.29.86:21345/gd.php?id=gd-st-2-1
 汕头3HD,http://ikuai.cyruslee.top:8888/udp/239.253.43.45:5146
 
-汕头1HD,http://xhzza.v6.navy:34040/udp/239.253.43.45:5146
-汕头2HD,http://xhzza.v6.navy:34040/udp/239.253.43.46:5146
+汕头1HD,http://47.100.29.86:21345/gd.php?id=gd-st-1-2
+汕头2HD,http://47.100.29.86:21345/gd.php?id=gd-st-2-2
 汕头3HD,http://113.86.204.79:9999/udp/239.253.43.47:5146
 
 电信

@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/skipandgoon/iptv-api/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-id="更新时间" tvg-name="更新时间" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/更新时间.png" group-title="🕘️更新时间",2026-04-17 17:26:17
+#EXTINF:-1 tvg-id="更新时间" tvg-name="更新时间" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/更新时间.png" group-title="🕘️更新时间",2026-04-19 16:51:16
 https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CCTV-1.png" group-title="📺央视频道",CCTV-1
 https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
@@ -1797,26 +1797,6 @@ http://clawcloud.goiptv.de5.net/litv.php?id=litv-xinchuang09&token=xiatianshigou
 http://clawcloud.goiptv.de5.net/litv.php?id=litv-xinchuang07&token=xiatianshigou
 #EXTINF:-1 tvg-id="博斯运动-2" tvg-name="博斯运动-2" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/博斯运动-2.png" group-title="🏀体育频道",博斯运动-2
 http://clawcloud.goiptv.de5.net/litv.php?id=litv-xinchuang08&token=xiatianshigou
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-https://zby.130519.xyz/PLTV/11/224/3221226161/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-https://zby.130519.xyz/PLTV/11/224/3221226175/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226161/1.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-http://[2605:6400:20:e33:19c6:b2fe:332b:d62d]:9090/live/1258.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001232/index.m3u8?
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225657/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225657/2.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226618/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🏀体育频道",哈哈炫动
-http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227025/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7RoPnbSvRPd3KyTpQ76WpA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-id="爱赛车" tvg-name="IHOT爱赛车" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/IHOT爱赛车.png" group-title="🏀体育频道",IHOT爱赛车
 http://[2409:8087:5e08:24::17]:6610/000000001000/2000000004000000055/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000055&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-id="爱赛车" tvg-name="IHOT爱赛车" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/IHOT爱赛车.png" group-title="🏀体育频道",IHOT爱赛车
@@ -1921,25 +1901,25 @@ http://[2409:8087:1a0b:df::4006]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/
 http://[2409:8087:1a01:df::4007]:80/TVOD/88888888/224/3221225529/main.m3u8
 #EXTINF:-1 tvg-id="NEWTV黑莓动画" tvg-name="黑莓动画" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/黑莓动画.png" group-title="🪁动画频道",黑莓动画
 http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226935/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EUc618y1E09GbQwwuOzEKaQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 https://zby.130519.xyz/PLTV/11/224/3221226161/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 https://zby.130519.xyz/PLTV/11/224/3221226175/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226161/1.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 http://[2605:6400:20:e33:19c6:b2fe:332b:d62d]:9090/live/1258.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001232/index.m3u8?
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225657/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225657/2.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226618/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="炫动卡通" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/炫动卡通.png" group-title="🪁动画频道",炫动卡通
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227025/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7RoPnbSvRPd3KyTpQ76WpA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-id="福州少儿" tvg-name="福州少儿" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/福州少儿.png" group-title="🪁动画频道",福州少儿
 http://live.zohi.tv/video/s10001-sepd-4/index.m3u8
