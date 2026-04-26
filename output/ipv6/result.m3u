@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/skipandgoon/iptv-api/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-id="更新时间" tvg-name="更新时间" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/更新时间.png" group-title="🕘️更新时间",2026-04-21 01:43:37
+#EXTINF:-1 tvg-id="更新时间" tvg-name="更新时间" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/更新时间.png" group-title="🕘️更新时间",2026-04-26 23:34:08
 https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CCTV-1.png" group-title="📺央视频道",CCTV-1
 https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
@@ -1135,6 +1135,8 @@ https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa
 https://stream1.freetv.fun/xiang-gang-wei-shi-13.m3u8
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/TVBS.png" group-title="🌊港澳台",TVBS
 http://free.cnlive.club/channel/154f9d73/index.m3u8
+#EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/TVBS.png" group-title="🌊港澳台",TVBS
+https://a3f1b2.kylintv.tv/live/tvbshd_iphone.m3u8
 #EXTINF:-1 tvg-id="TVB翡翠台" tvg-name="TVB翡翠台" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/TVB翡翠台.png" group-title="🌊港澳台",TVB翡翠台
 https://o11.163189.xyz/stream/tvb/fct4k/
 #EXTINF:-1 tvg-id="TVB翡翠台" tvg-name="TVB翡翠台" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/TVB翡翠台.png" group-title="🌊港澳台",TVB翡翠台

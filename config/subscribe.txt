@@ -3,7 +3,6 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA:
 # https://xxx.com/subscribe.m3u UA="xxx"
-
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
 https://raw.githubusercontent.com/q1017673817/iptvz/main/zubo_all.txt
@@ -26,7 +25,8 @@ https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整�
 https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
 https://live.hacks.tools/tv/iptv4.txt
 https://cdn.jsdelivr.net/gh/mzky/checklist@master/itvlist.m3u
-https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt
+
+# https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
