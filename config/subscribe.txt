@@ -4,7 +4,7 @@
 # Supports setting UA:
 # https://xxx.com/subscribe.m3u UA="xxx"
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
-https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
+https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
 https://raw.githubusercontent.com/q1017673817/iptvz/main/zubo_all.txt
 https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 https://raw.githubusercontent.com/wujiangliu/live-sources/main/%E7%94%B5%E8%A7%86%E5%AE%B6.m3u
