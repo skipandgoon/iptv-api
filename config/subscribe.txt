@@ -3,7 +3,6 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA:
 # https://xxx.com/subscribe.m3u UA="xxx"
-
 https://live.zhi35.com/iptv.m3u
 https://live.zbds.top/tv/iptv4.txt
 https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u
@@ -11,7 +10,6 @@ https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://raw.githubusercontent.com/ngo5/IPTV/main/m3u/ipv4.m3u
 https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8
-https://raw.githubusercontent.com/jayohide/iptv/main/iptv.m3u
 https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
 https://cdn.jsdelivr.net/gh/mzky/checklist@master/itvlist.m3u
 https://live.zbds.top/tv/iptv4.txt
@@ -23,6 +21,7 @@ https://raw.githubusercontent.com/alantang1977/iptv-auto/refs/heads/main/my.txt
 https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆无18内容
 https://raw.githubusercontent.com/develop202/migu_video/main/interfaceTXT.txt
 
+# https://raw.githubusercontent.com/jayohide/iptv/main/iptv.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。

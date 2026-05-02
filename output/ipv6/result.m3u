@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/skipandgoon/iptv-api/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-id="更新时间" tvg-name="更新时间" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/更新时间.png" group-title="🕘️更新时间",2026-04-26 23:34:08
+#EXTINF:-1 tvg-id="更新时间" tvg-name="更新时间" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/更新时间.png" group-title="🕘️更新时间",2026-05-03 03:02:34
 https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CCTV-1.png" group-title="📺央视频道",CCTV-1
 https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
@@ -383,6 +383,8 @@ http://[2605:6400:20:e33:19c6:b2fe:332b:d62d]:9090/live/1233.m3u8
 http://gxyd.484947.xyz/PLTV/77777777/224/3221226411/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="CETV-1" tvg-name="CETV-1" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-1.png" group-title="📺央视频道",CETV-1
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
+#EXTINF:-1 tvg-id="CETV-1" tvg-name="CETV-1" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-1.png" group-title="📺央视频道",CETV-1
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226494/1.m3u8?
 #EXTINF:-1 tvg-id="CETV-2" tvg-name="CETV-2" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-2.png" group-title="📺央视频道",CETV-2
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
 #EXTINF:-1 tvg-id="CETV-2" tvg-name="CETV-2" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-2.png" group-title="📺央视频道",CETV-2
@@ -391,12 +393,16 @@ http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226718/1.m3u8
 http://gxyd.484947.xyz/PLTV/77777777/224/3221226432/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="CETV-2" tvg-name="CETV-2" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-2.png" group-title="📺央视频道",CETV-2
 http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
+#EXTINF:-1 tvg-id="CETV-2" tvg-name="CETV-2" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-2.png" group-title="📺央视频道",CETV-2
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND
 #EXTINF:-1 tvg-id="CETV-3" tvg-name="CETV-3" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-3.png" group-title="📺央视频道",CETV-3
 http://ott.mobaibox.com/PLTV/3/224/3221227018/index.m3u8
 #EXTINF:-1 tvg-id="CETV-3" tvg-name="CETV-3" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-3.png" group-title="📺央视频道",CETV-3
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226722/1.m3u8
 #EXTINF:-1 tvg-id="CETV-3" tvg-name="CETV-3" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-3.png" group-title="📺央视频道",CETV-3
 http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001309/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 tvg-id="CETV-3" tvg-name="CETV-3" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-3.png" group-title="📺央视频道",CETV-3
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226577/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EhE2Z89HKgsQOlN9opVn1iw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNN03yUnk4zBVk1bynPPL3hZ%2CEND
 #EXTINF:-1 tvg-id="CETV-4" tvg-name="CETV-4" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-4.png" group-title="📺央视频道",CETV-4
 https://zby.130519.xyz/PLTV/11/224/3221226153/index.m3u8
 #EXTINF:-1 tvg-id="CETV-4" tvg-name="CETV-4" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-4.png" group-title="📺央视频道",CETV-4
@@ -413,6 +419,8 @@ http://[2605:6400:20:e33:19c6:b2fe:332b:d62d]:9090/live/1279.m3u8
 http://gxyd.484947.xyz/PLTV/77777777/224/3221226414/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="CETV-4" tvg-name="CETV-4" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-4.png" group-title="📺央视频道",CETV-4
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
+#EXTINF:-1 tvg-id="CETV-4" tvg-name="CETV-4" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CETV-4.png" group-title="📺央视频道",CETV-4
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-id="CCTV-3" tvg-name="CCTV3D" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CCTV3D.png" group-title="📺央视频道",CCTV3D
 https://zby.130519.xyz/PLTV/11/224/3221225766/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-3" tvg-name="CCTV3D" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/CCTV3D.png" group-title="📺央视频道",CCTV3D
@@ -955,6 +963,8 @@ http://k.061899.xyz/k.php?id=sxiws
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226704/1.m3u8
 #EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/山西卫视.png" group-title="📡卫视频道",山西卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225624/index.m3u8
+#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/山西卫视.png" group-title="📡卫视频道",山西卫视
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/陕西卫视.png" group-title="📡卫视频道",陕西卫视
 https://zby.130519.xyz/PLTV/11/224/3221226086/index.m3u8
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/陕西卫视.png" group-title="📡卫视频道",陕西卫视
@@ -973,6 +983,8 @@ http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226707/1.m3u8
 http://hlsbkmgsplive.miguvideo.com/migu/kailu/shan3xiws/57/20220809/index.m3u8?msisdn=&mtv_session=&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/陕西卫视.png" group-title="📡卫视频道",陕西卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225625/index.m3u8
+#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/陕西卫视.png" group-title="📡卫视频道",陕西卫视
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/深圳卫视.png" group-title="📡卫视频道",深圳卫视
 https://zby.130519.xyz/PLTV/11/224/3221225728/index.m3u8
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/深圳卫视.png" group-title="📡卫视频道",深圳卫视
@@ -1337,6 +1349,12 @@ https://stream1.freetv.fun/wei-lai-ti-yu-9.ctv
 https://hls.livelivelive.space/stream/39480955.m3u8
 #EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来体育.png" group-title="🌊港澳台",纬来体育
 https://smt.1678520.xyz/163189/286f8eb30448a8e8
+#EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来体育.png" group-title="🌊港澳台",纬来体育
+https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
+#EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来体育.png" group-title="🌊港澳台",纬来体育
+https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
+#EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来体育.png" group-title="🌊港澳台",纬来体育
+https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
 #EXTINF:-1 tvg-id="纬来戏剧" tvg-name="纬来戏剧" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来戏剧.png" group-title="🌊港澳台",纬来戏剧
 https://smt.1678520.xyz/163189/3586bd154f561caa
 #EXTINF:-1 tvg-id="纬来育乐" tvg-name="纬来育乐" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来育乐.png" group-title="🌊港澳台",纬来育乐
@@ -1459,8 +1477,6 @@ https://www.youtube.com/watch?v=V1p33hqPrUk
 https://www.youtube.com/live/V1p33hqPrUk?si=IyGTwsTSIL7hXDKN
 #EXTINF:-1 tvg-id="东森幼幼" tvg-name="东森幼幼" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/东森幼幼.png" group-title="🌊港澳台",东森幼幼
 http://free.cnlive.club/channel/naa6d18/index.m3u8
-#EXTINF:-1 tvg-id="东森幼幼" tvg-name="东森幼幼" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/东森幼幼.png" group-title="🌊港澳台",东森幼幼
-https://live.catvod.com/live.php?id=yoyo_twn
 #EXTINF:-1 tvg-id="Now财经" tvg-name="Now财经" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/Now财经.png" group-title="🌊港澳台",Now财经
 https://t.ttvb.eu.org/tvb/now-333/index.m3u8
 #EXTINF:-1 tvg-id="Now财经" tvg-name="Now财经" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/Now财经.png" group-title="🌊港澳台",Now财经
@@ -1777,6 +1793,12 @@ https://stream1.freetv.fun/wei-lai-ti-yu-9.ctv
 https://hls.livelivelive.space/stream/39480955.m3u8
 #EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来体育.png" group-title="🏀体育频道",纬来体育
 https://smt.1678520.xyz/163189/286f8eb30448a8e8
+#EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来体育.png" group-title="🏀体育频道",纬来体育
+https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
+#EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来体育.png" group-title="🏀体育频道",纬来体育
+https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
+#EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/纬来体育.png" group-title="🏀体育频道",纬来体育
+https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/五星体育.png" group-title="🏀体育频道",五星体育
 https://zby.130519.xyz/PLTV/11/224/3221225732/index.m3u8
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/五星体育.png" group-title="🏀体育频道",五星体育
@@ -1923,6 +1945,10 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225657
 http://[2409:8087:74d9:21::6]/000000001000PLTV/88888888/224/3221226618/index.m3u8
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/哈哈炫动.png" group-title="🪁动画频道",哈哈炫动
 http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227025/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7RoPnbSvRPd3KyTpQ76WpA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-id="浙江少儿" tvg-name="浙江少儿" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/浙江少儿.png" group-title="🪁动画频道",浙江少儿
+http://ali-xwl.cztv.com/live/channel081080Plxw.m3u8
+#EXTINF:-1 tvg-id="浙江少儿" tvg-name="浙江少儿" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/浙江少儿.png" group-title="🪁动画频道",浙江少儿
+http://ali-xwl.cztv.com/live/channel08720Plxw.m3u8
 #EXTINF:-1 tvg-id="福州少儿" tvg-name="福州少儿" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/福州少儿.png" group-title="🪁动画频道",福州少儿
 http://live.zohi.tv/video/s10001-sepd-4/index.m3u8
 #EXTINF:-1 tvg-id="福州少儿" tvg-name="福州少儿" tvg-logo="https://cdn.jsdelivr.net/gh/skipandgoon/MyIcons@main/icons/TV/福州少儿.png" group-title="🪁动画频道",福州少儿
