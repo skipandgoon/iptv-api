@@ -2,3 +2,9 @@
 # This is the interface blacklist list, the interface matching the keyword will be blocked, one keyword line
 /audio/
 bxtv.3a.ink
+catvod
+猫影视
+c1n.cn/cat
+gg.gg/cat666
+TVbox
+影视仓
