@@ -4,3 +4,22 @@
 # The local source list, one line per source, format: channel name, interface address
 # Support setting whitelist: add $! after the interface
 # If there are multiple local source files, you can create a local directory under the config directory for storage, supporting txt/m3u file formats
+HOY国际财经台,https://cdn11.163189.xyz/163189/2c86601a7180416e
+重温经典,https://cdn13.178.indevs.in/163189/21d79187db6e9793
+民视影剧台,https://cdn12.178.indevs.in/163189/73d93f1c22fa91d7
+公视戏剧,https://cdn12.178.indevs.in/163189/2973b910e7719c08
+采昌影剧台,https://cdn12.178.indevs.in/163189/0a6204ed0261460c
+靖天映画,https://cdn12.178.indevs.in/163189/bd4752bd7828b2bf
+靖天戏剧台,https://cdn12.178.indevs.in/163189/177d541552f78003
+靖天电影台,https://cdn12.178.indevs.in/163189/ed33509e03e78c7a
+靖洋戏剧台,https://cdn12.178.indevs.in/163189/25084ef5a2662aad
+影迷数位电影台,https://cdn12.178.indevs.in/163189/a643783ec587540e
+amc电影台,https://cdn12.178.indevs.in/163189/0bcf9bb8c452e56a
+CinemaWorld,https://cdn12.178.indevs.in/163189/6086cfe7a9756110
+My Cinema Europe,https://cdn12.178.indevs.in/163189/5bda99f1c049edef
+经典电影台,https://cdn12.178.indevs.in/163189/61b8ea35ffce4630
+CMusic,https://cdn12.178.indevs.in/163189/d396cb84b6c89889
+DreamWorks梦工厂动画,https://cdn12.178.indevs.in/163189/10395eb942c5a9b9
+精选动漫台,https://cdn12.178.indevs.in/163189/e1d66f74bd2d4894
+Now爆谷台,https://iptv.852851.xyz/ch/68527adcbbc4f6f0c815314a24d71aaf/master.m3u8
+Now星影台,https://iptv.852851.xyz/ch/d435662d54b451d96cdb1bc534b4de82/master.m3u8
