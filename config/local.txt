@@ -14,7 +14,7 @@ HOY国际财经台,https://cdn11.163189.xyz/163189/2c86601a7180416e
 靖天电影台,https://cdn12.178.indevs.in/163189/ed33509e03e78c7a
 靖洋戏剧台,https://cdn12.178.indevs.in/163189/25084ef5a2662aad
 靖洋戏剧台,https://iptv.852851.xyz/ch/c6a9a10a88d2d16d79ff1731fa6634d1/master.m3u8
-影迷数位电影台,https://cdn12.178.indevs.in/163189/a643783ec587540e
+影迷数位电影,https://cdn12.178.indevs.in/163189/a643783ec587540e
 amc电影台,https://cdn12.178.indevs.in/163189/0bcf9bb8c452e56a
 amc电影台,https://iptv.852851.xyz/ch/6788c3866786a8fffece835298a4a93c/master.m3u8
 CinemaWorld,https://cdn12.178.indevs.in/163189/6086cfe7a9756110
