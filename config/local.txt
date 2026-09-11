@@ -5,3 +5,4 @@
 # Support setting whitelist: add $! after the interface
 # If there are multiple local source files, you can create a local directory under the config directory for storage, supporting txt/m3u file formats
 
+天映频道,http://iptv.852851.xyz/l/t4IagadDNyZLT-Aho60HoW7LBzQf4xVM8urC_fiMg7H4p5BLCUarFhRbBrFiqfjm/play
