@@ -72,8 +72,8 @@ CGTN俄语,CGTN俄罗斯语,cgtnrussian,cgtn俄语,CGTN Russian,CGTN Pусски
 翡翠台,TVb翡翠台,tvb翡翠台,TVB翡翠台,翡翠台(字幕),翡翠台备,翡翠台超清[Jade HD+],翡翠台超清,Jade HD+,翡翠台(多音轨字幕),TVB翡翠,无线翡翠,翡翠,tvb翡翠,[BD]翡翠台,[BD]翡翠,无线翡翠Pdtv,翡翠台2,b翡翠,高清翡翠台,黄金翡翠,TVB翡翠台 4K,TVB翡翠台 1080P,無綫翡翠台,翡翠台北美版,无线翡翠频晴,无线翡翠高码,黄金翡翠频晴,无线翡翠频伍,无线翡翠频陆,无线翡翠台,TVB翡翠台H.265,Jade,TVB Jade,TVB翡翠台4K,TVB翡翠台1080P,TVB翡翠台（备用）,TVB 翡翠台,TVB翡翠台 H.265,黄金翡翠频陆,TVB jade,TVB翡翠(马来),TVB翡翠台(备用)
 明珠台,TVb明珠台,tvb明珠台,TVB明珠台,TVB Pearl,明珠台(字幕),明珠,明珠台超清[Pearl HD+],明珠台超清,Pearl HD+,TVB明珠,明珠台(多音轨字幕),无线明珠,[BD]明珠台高清,[BD]明珠,无线明珠Pdtv,pearl,tvbpearl,re:^明珠台\s*\(.*?\).*$,無綫明珠台,TVBPearl,无线明珠频晴,无线明珠高码,无线明珠频陆,无线明珠台,Pearl,TVB 明珠台
 北京卫视,北京卫视4K,北京卫视4K超高清,北京衛視,北京卫视高清,北京卫视 高清,北京卫视 8m1080,[BD]北京卫视高清,[BD]北京卫视 8m1080,[BD]北京卫视 高清,北京卫视HD,[BD]北京卫视,北京卫视高清 1080P,北京卫视HD 1080P,北京卫视4k,北京卫视超高清,北京卫视4K 4K,北京卫视4K-25P,北京卫视4K25,北京卫视4K50,北京卫视hd,北京淘baby,BRTV北京卫视,北京卫视频晴,北京卫视HEVC,北京卫视_HEVC,BRTV_北京卫视_,Beijing Satellite TV,BRTV 北京卫视 (1080p),BRTV_北京卫视_(1080p),北京卫视SD,北京卫视咪咕,北京卫视4k超,北京卫视4K超,BRTV 北京卫视,BRTV 北京卫视 [Not 24/7]
-凤凰中文,凤凰卫视中文台,鳳凰衛視中文,鳳凰中文,鳳凰中文台,凤凰卫视中文,[BD]鳳凰衛視中文,[BD]凤凰中文,[BD]凤凰卫视中文,凤凰中文Pdtv,凤凰中文hd,凤凰中文台,凤凰卫视,鳳凰衛視中文台,凤凰中文频晴,Phoenix Chinese Channel,凤凰卫视 中文台,凤凰卫视频陆,凤凰中文ipv6,Phoenix Chinese
-凤凰香港,凤凰卫视香港台,鳳凰香港,鳳凰香港台,鳳凰衛視香港,[BD]鳳凰衛視香港,[BD]凤凰卫视香港,凤凰香港Pdtv,鳳凰衛視香港台,凤凰香港频晴,凤凰香港频陆,备用源1:凤凰香港,备用源2:凤凰香港,Phoenix Hong Kong Channel,凤凰卫视 香港台,Phoenix Hong Kong,凤凰香港台
+凤凰中文,鳳凰中文,Phoenix Chinese,凤凰中文台,鳳凰中文台,凤凰卫视中文台,鳳凰衛視中文,凤凰卫视中文,[BD]鳳凰衛視中文,[BD]凤凰中文,[BD]凤凰卫视中文,凤凰中文Pdtv,凤凰中文hd,凤凰卫视,鳳凰衛視中文台,凤凰中文频晴,Phoenix Chinese Channel,凤凰卫视 中文台,凤凰卫视频陆,凤凰中文ipv6
+凤凰香港,鳳凰香港,Phoenix Hong Kong,凤凰香港台,鳳凰香港台,凤凰卫视香港台,鳳凰衛視香港,[BD]鳳凰衛視香港,[BD]凤凰卫视香港,凤凰香港Pdtv,鳳凰衛視香港台,凤凰香港频晴,凤凰香港频陆,备用源1:凤凰香港,备用源2:凤凰香港,Phoenix Hong Kong Channel,凤凰卫视 香港台
 福建文体,福建体育,福建体育频道,福建体育高清,福建体育频晴
 福建经济,福建经济,福建经视
 FZTV1,FZTV-1,福州综合,福州1-新闻,fztv1,福州1台
@@ -172,9 +172,9 @@ CHC动作电影,CHC動作電影,chc动作电影,[BD]chc动作电影,CHC动作电
 CGTN纪录,CGTN Documentary,cgtn documentary,[BD]cgtn纪录,[BD]cgtn documentary,CGTN纪录HD,CGTN纪录频道,CGNT记录频道,CGTN外语纪录,CGTN-外语纪录,CGTN纪录片,CGNT记录,CGNT 记录频道
 华丽翡翠台,翡翠台华丽,翡翠台(馬來),翡翠台(马来),华丽翡翠台(多音轨字幕),华丽翡翠台(新加坡),无线华丽,TVB华丽翡翠,TVB华丽翡翠新加坡,tvb華麗,Astro华丽台 *b,无线华丽Pdtv,无线华丽台,華麗翡翠台
 TVB Plus,TVBPlus,TVB plus 超清,TVB+,TVB PLUS(多音轨字幕),tvb plus超清,tvb+,tvbplus,tvb plus,TVBS Plus,Plus综合Pdtv,Plus综合,Plus综合频晴,无线Plus频伍,TVB82,82台,无线82台,TVB Plus 82,TVB综合频道,TVB Plus82,TVBplus,TVB Plus H.265,备用源1:TVB Plus,TVB综合,无线Plus台,TVB PLUS,TVBPLUS,Plus综合高码,TVB plus
-TVB星河,无线星河,TVB星河国语,TVB星河(多音轨字幕),无线星河Pdtv,tvb星河,tvb星河频道,星河,TVB无线星河,无线星河频晴,星河频道,备用源1:TVB星河,备用源2:TVB星河,TVB星河频道,无线星河国,无线星河粤,TVB Xing He,TVB XingHe,TVB 星河,TVB 星河频道,tvb 星河,TVB Xinghe,无线星河，TVB星河频道,TVB星河,TVB星河頻道,TVB Xing He HD
+TVB星河,TVB 星河,TVB 星河频道,TVB星河频道,星河频道,tvb 星河,TVB Xinghe,无线星河，TVB星河频道,TVB星河,tvb星河,TVB星河頻道,TVB Xing He HD,TVB Xing He,无线星河,TVB星河国语,TVB星河(多音轨字幕),无线星河Pdtv,tvb星河频道,星河,TVB无线星河,无线星河频晴,备用源1:TVB星河,备用源2:TVB星河,无线星河国,无线星河粤,TVB XingHe
 TVBS亚洲,TVBS亚洲,TVBS 亚洲,TVBS 亚洲台,Tvbs 亚洲,tvbs 亚洲,TVBS Asia,TVBS亞洲,TVBS 亞洲,TVBS 亞洲台,Tvbs 亞洲,tvbs 亞洲,TVBS Asia
-凤凰资讯,鳳凰資訊HD,鳳凰資訊台,鳳凰衛視資訊,[BD]凤凰卫视资讯,凤凰资讯Pdtv,凤凰资讯hd,凤凰资讯台,凤凰卫视资讯台,鳳凰衛視資訊台,凤凰资讯高清,凤凰信息频晴,凤凰资讯频陆,备用源1:凤凰资讯,Phoenix InfoNews Channel,凤凰卫视 资讯台,凤凰资讯ipv6,鳳凰資訊,Phoenix InfoNews
+凤凰资讯,鳳凰資訊,Phoenix InfoNews,凤凰资讯台,鳳凰資訊台,鳳凰資訊HD,鳳凰衛視資訊,[BD]凤凰卫视资讯,凤凰资讯Pdtv,凤凰资讯hd,凤凰卫视资讯台,鳳凰衛視資訊台,凤凰资讯高清,凤凰信息频晴,凤凰资讯频陆,备用源1:凤凰资讯,Phoenix InfoNews Channel,凤凰卫视 资讯台,凤凰资讯ipv6
 香港卫视,香港衛視,香港卫视高清,香港卫视 高清,香港卫视 8m1080,香港卫视HKS,香港卫视频晴,卫视频晴,HKSTV,HKS TV,Hong Kong Satellite TV
 华艺中文,華藝中文,华艺中文频道,華藝中文頻道
 ViuTV,VIUTV,ViuTV HD+,viutv高清,viutv,viutv香港,VIU TV,ViuTV1,ViuTV壹台,ViuTV-粤频晴,ViuTv_粤高码,ViuTv_英高码,ViuTV-英频晴,VIUTV'粤频晴,VIU TV H.265,备用源1:ViuTV,ViuTv粤高码,ViuTv英高码,VIUtv台粤,VIUTV1,VIUTV'粤,VIUTV台粤,VIUTV台-粤,备用源1:VIUTV
@@ -186,21 +186,21 @@ Astro欢喜台,ASTRO欢喜台,ASTRO 欢喜 *b,astro欢喜,Astro 欢喜台,Astr�
 千禧经典,千禧经典台,千禧經典臺,千禧經典,TVB千禧经典台,TVB 千禧经典台
 天映频道,天映頻道,天映,天映频道(新加坡),[BD]天映 *b,[BD]天映,天映频道 (新加坡),Celestial Movies,天映频道频晴,天映频伍,天映频陆,CelestialMovies,Celestial Movies (576i),CELESTIAL MOVIES
 靖天映画,靖天映畫,[BD]靖天映畫,[BD]靖天映画,靖天映画台,靖天映画频陆,靖天映画频晴,靖天映畫HD,靖天映畫頻道
-龙华电影,龍華電影,[BD]龍華電影,龙华电影Pdtv,龙华电影台,龍華電影台,龙华电影频晴
+龙华电影,龍華電影台,龙华电影台,龍華電影,[BD]龍華電影,龙华电影Pdtv,龙华电影频晴
 龙华经典,龍華經典,龙华经典Pdtv,龙华经典台,龍華經典台
 龙华偶像,龍華偶像,龙华偶像Pdtv,龙华偶像台,龍華偶像台,龙华偶像频晴
-龙华日韩,龍華日韓,[BD]龍華日韓,龙华日韩Pdtv,龙华日韩台,龍華日韓台
-龙华洋片,龍華洋片,龙华洋片台,龍華洋片台
-龙华卡通,龍華卡通,龙华卡通台,龍華卡通台
+龙华日韩,龍華日韓台,龙华日韩台,龍華日韓,[BD]龍華日韓,龙华日韩Pdtv
+龙华洋片,龍華洋片台,龙华洋片台,龍華洋片
+龙华卡通,龍華卡通台,龙华卡通台,龍華卡通
 三立新闻,三立新聞inews,三立新聞,三立INEWS HD,三立新闻台,SET News,三立NEWS+,三立新闻频晴,三立新闻频陆,三立新闻4Gtv,三立新聞台,SANLIH News,三立新聞網,三立新聞iNEWS
 中天新闻,[BD]中天新聞,中天新聞,中天新聞FHD,[BD]中天新闻,中天新闻台,CTi News,中天新闻Pdtv,中天新闻频晴,中天新闻频伍,中天新闻频陆,中天新闻4Gtv
 中视,中視,中視HD,中视 *a,[BD]中视,中视综合台,中国电视公司
 中视新闻,中視新聞,中視新聞FHD,中視新聞臺,中視新聞 *ee,[BD]中視新聞 *ee,中视新闻台,CTV News,中视新闻频陆,中视新闻频晴,中視新聞台
 中视经典,中視經典,中视经典 *q,[BD]中视经典 *q,中视经典台,中视经典频晴
-东森综合,东森综合台,東森綜合,東森綜合2,東森綜合臺,東森綜合台,东森综合频晴,东森综合频陆,EBC 綜合,EBC綜合,EBCVariety
-靖天电影,靖天電影,[BD]靖天电影,[BD]靖天電影,靖天电影台,靖天電影台,靖天电影频晴,靖天电影频道,靖天电影频道,靖天電影頻道
-东森电影,東森電影,東森電影 *ee,[BD]東森電影,[BD]東森電影 *ee,东森电影台,東森電影台,東森电影国,东森电影频晴,EBC 電影,EBC電影,EBCMovies
-纬来电影,緯來電影,纬来电影台,緯來電影台,纬来电影频晴,緯來電影合,VL Movie,纬来电影频道
+东森综合,東森綜合,東森綜合台,东森综合台,EBC 綜合,EBC綜合,EBCVariety,東森綜合2,東森綜合臺,东森综合频晴,东森综合频陆
+靖天电影,靖天电影频道,靖天电影台,靖天電影,靖天电影频道,靖天電影頻道,靖天電影台,[BD]靖天电影,[BD]靖天電影,靖天电影频晴
+东森电影,東森電影,東森電影台,东森电影台,EBC 電影,EBC電影,EBCMovies,東森電影 *ee,[BD]東森電影,[BD]東森電影 *ee,東森电影国,东森电影频晴
+纬来电影,纬来电影台,緯來電影,緯來電影合,緯來電影台,VL Movie,纬来电影频道,纬来电影频晴
 美亚电影,[BD]美亞電影,美亚高清电影台香港,美亚C+,美亚电影Pdtv,美亚电影频晴
 民视综艺,民視綜藝,[BD]民視綜藝,民视综艺台
 梦工厂动漫,夢工廠動漫,DreamWorks梦工厂动画,DreamWorks,梦工厂动画,dreamworks梦工厂动画
@@ -620,7 +620,7 @@ TVB J1,TVB j1,TVBJ1,TVB J1频道,TVBj1
 TVB J2,TVB j2,TVBJ2,TVB J2频道,TVBj2,无线J2,TVB J2 H.265
 TVB1,TVB 1
 TVBPEARL,bpearl
-TVBS,tvbs,台湾TVBS,TVBS HD,Tvbs_HD频陆,Tvbs,TVBS 新闻台 (泛称),台湾 TVBS
+TVBS,Tvbs,tvbs,TVBS 新闻台 (泛称),台湾 TVBS,台湾TVBS,TVBS HD,Tvbs_HD频陆
 TVBS台剧台,bs剧
 TVBS新闻,TVBS-Asia,TVBS网路新闻,tvbs新闻频晴,TVBS新闻频陆,tvbs新闻4Gtv,TVBS Asia,TVBS_Asia_,TVBS Asia (1080p),TVBSNEWS,TVBS ASIA,TVBS News,TVBS 新闻,TVBS 新闻台,Tvbs 新闻,tvbs 新闻,TVBS 新闻频道,TVBS新聞,TVBS 新聞,TVBS 新聞臺,Tvbs 新聞,tvbs 新聞,TVBS 新聞頻道
 TVBS新闻台,tvbs新闻,tvbs新闻台
@@ -795,7 +795,7 @@ Z频道,zchannel,z频道
 东映チャンネルHD,东映チャンネル
 东森亚洲卫视,台湾东森亚洲卫视,EBC Asia,東森亞洲衛視,EBCAsia,EBC亞洲衛視
 东森亚洲新闻台,东森亚洲新闻
-东森幼幼,东森幼幼频陆,儿童|东森幼幼,EBC YOYO,YOYO TV,東森幼幼台,东森幼幼频晴,東森幼幼,东森幼幼台,YoYo幼幼台,EBCYoYoTV
+东森幼幼,東森幼幼,東森幼幼台,东森幼幼台,EBC YOYO,YoYo幼幼台,EBCYoYoTV,东森幼幼频陆,儿童|东森幼幼,YOYO TV,东森幼幼频晴
 东森幼幼台,东森幼幼台
 东森戏剧,東森戲劇台,东森戏剧频陆,东森戏剧频晴,東森戲劇,东森戏剧台,EBC 戲劇,EBC戲劇
 东森戏剧台,东森戏剧台
@@ -1109,7 +1109,7 @@ Z频道,zchannel,z频道
 博斯高球,bossgolf,博斯高爾夫,博斯高球台,Bosch 高球,博斯高爾夫頻道,博斯高球,博斯高爾夫,博斯高球台,Bosch高球,博斯高爾夫頻道
 博斯高球1,博斯高球-1,博斯高球1台
 博斯高球2,博斯高球2
-博斯魅力,博斯魅力台,博斯魅力频陆,博斯魅力频晴,博斯魅力頻道,博斯魅力,博斯魅力頻道
+博斯魅力,博斯魅力台,博斯魅力頻道,博斯魅力,博斯魅力台,博斯魅力頻道,博斯魅力频陆,博斯魅力频晴
 博斯魅力网,bosscharm
 卡通频道,cartoonchannel
 卢氏综合,卢氏综合频道
@@ -2241,7 +2241,7 @@ Z频道,zchannel,z频道
 红色轮播,红色轮播
 纪实人文,纪实人文高清
 纪实科教,br纪实,记实科教
-纬来体育,緯來體育台,緯來體育,纬来体育频晴,纬来体育频陆,纬来体育台
+纬来体育,緯來體育,纬来体育台,緯來體育台,纬来体育频晴,纬来体育频陆
 纬来体育台,纬来体育台
 纬来戏剧,緯來戲劇,纬来戏剧频晴,纬来戏剧台,緯來戲劇合,緯來戲劇台,VL Drama,纬来戏剧频道
 纬来戏剧台,纬来戏剧台
@@ -2765,7 +2765,7 @@ Z频道,zchannel,z频道
 龙井综合,龙井电视台
 龙华动画,龙华动画
 龙华影剧,龙华影剧
-龙华戏剧,龙华戏剧台,龍華戲劇台,龙华戏剧频晴,龙华戏剧Pdtv,龍華戲劇
+龙华戏剧,龍華戲劇台,龙华戏剧台,龍華戲劇,龙华戏剧频晴,龙华戏剧Pdtv
 龙岩公共,龙岩电视台公共频道,龙岩二套,龙岩电视台公共
 龙岩新闻综合,龙岩电视台新闻综合频道,龙岩一套,龙岩电视台新闻综合
 龙岩综合,龙岩
