@@ -96,13 +96,6 @@ RTHK35,港台电视 35,港台電視 35,RTHK 35,RTHK-35
 RTHK36,港台电视 36,港台電視 36,RTHK 36,RTHK-36,港台电视 36,港台電視 36,RTHK36,RTHK 36,RTHK-36
 
 
-
-HOY国际财经台,HOY 國際財經台,HOY 國際財經台,HOY 国际财经台,HOY 国际财经台,HOY国际财经台,*HOY 國際財經台,*HOY 国际财经台,HOY 国际财经台
-HOY TV,HOY TV,*HOY TV,*HOY TV
-HOY资讯台,HOY 資訊台,HOY 資訊台,HOY 资讯台,HOY 资讯台,*HOY 資訊台,*HOY 資訊台
-
-
-
 赣州新闻,GZSXW,GZSNews
 
 
@@ -490,9 +483,12 @@ HNZKTV2,hnzk2
 HNZKTV3,hnzktv3,河南周口3台
 HNZKTV4,hnzktv4,河南周口4台
 Hot,hot,hottv
-HOY76,hoy76,HOY财经台,HOY 財經台,有线财经台,有線財經資訊台,有线赛讯台,有線賽訊台,有线赛讯频晴,有线赛讯高码,HOY76财经,HOY財經台,HOY國際財經台
-HOY77,hoy77,HOY综合台,HOY 綜合台,有线综合台,有線綜合台,有线综合Pdtv,有线综合频晴,有线综合高码,有线综合频伍,HOY77综合,HOY綜合台,备用源1:HOY TV,HOY_TV_,HOY TV (1080p) [Geo-blocked]
-HOY78,hoy78,HOY新闻台,HOY 新聞台,有線新聞台,有线新闻Pdtv,有线新闻频晴,有线新闻高码,有线新闻频伍,有线新闻频陆,HOY78新闻,HOY新聞台,HOY資訊台,有線新聞
+
+
+HOY资讯台,HOY 資訊台,HOY 資訊台,HOY 资讯台,HOY 资讯台,*HOY 資訊台,*HOY 資訊台
+HOY国际财经台,HOY 國際財經台,HOY 國際財經台,HOY 国际财经台,HOY 国际财经台,HOY国际财经台,*HOY 國際財經台,*HOY 国际财经台,HOY 国际财经台,HOY76,hoy76,HOY财经台,HOY 財經台,有线财经台,有線財經資訊台,有线赛讯台,有線賽訊台,有线赛讯频晴,有线赛讯高码,HOY76财经,HOY財經台,HOY國際財經台
+HOY TV,HOY TV,*HOY TV,*HOY TV,HOY77,hoy77,HOY综合台,HOY 綜合台,有线综合台,有線綜合台,有线综合Pdtv,有线综合频晴,有线综合高码,有线综合频伍,HOY77综合,HOY綜合台,备用源1:HOY TV,HOY_TV_,HOY TV (1080p) [Geo-blocked]
+HOY新闻台,HOY78,hoy78,HOY 新聞台,有線新聞台,有线新闻Pdtv,有线新闻频晴,有线新闻高码,有线新闻频伍,有线新闻频陆,HOY78新闻,HOY新聞台,HOY資訊台,有線新聞
 HRBTV1,hrbtv1,哈尔滨1台
 HZTV1,hztv1,杭州1台
 HZTV2,hz2
@@ -2946,9 +2942,7 @@ RTHK33,港台电视 33,港台電視 33,RTHK 33,RTHK-33
 RTHK34,港台电视 34,港台電視 34,RTHK 34,RTHK-34
 RTHK35,港台电视 35,港台電視 35,RTHK 35,RTHK-35
 RTHK36,港台电视 36,港台電視 36,RTHK 36,RTHK-36
-HOY国际财经台,HOY 國際財經台,HOY 國際財經台,HOY 国际财经台,HOY 国际财经台,HOY国际财经台
-HOY TV,HOY TV
-HOY资讯台,HOY 資訊台,HOY 資訊台,HOY 资讯台,HOY 资讯台
+
 
 Now爆谷台,Now 爆谷台,now 爆谷台,Now 爆谷,Now Popcorn,Now爆谷台,now爆谷台,Now爆谷,NowPopcorn,Now爆谷台,香港Now爆谷台,now Baogu Movies,now爆谷台,nowBaoguMovies,Now 爆谷台,now 爆谷台,Now 爆谷,Now Popcorn,Now爆谷台,Now爆谷,NowPopcorn
 Now剧集,Now 剧集,now 劇集,Now 劇集,Now 剧集台,Now 劇集台,Now剧集,now劇集,Now劇集,Now剧集台,Now劇集台,Now剧集,Now 剧集,now 劇集,Now 劇集,Now 剧集台,Now 劇集台,Now剧集,now劇集,Now劇集,Now剧集台,Now劇集台,now剧集台
