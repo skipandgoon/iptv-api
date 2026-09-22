@@ -1,0 +1,92 @@
+name: Sync playlist to Gitee
+
+# 目的：把本仓库每次生成的播放列表产物同步到 Gitee 公开仓
+#   （国内直连、播放器免翻墙；Gitee raw 实测匿名可读）
+# 触发：本仓库发布 Release/预发布（上游 main.yml 每次运行都会发一个 prerelease）
+# 说明：本文件是 fork 新增，不修改上游任何文件 → 同步上游时不冲突
+# 产物源：Release 附件（result/ipv4/ipv6 的 txt+m3u、epg.xml/gz）
+
+on:
+  release:
+    types: [published, prereleased]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "要同步的 release tag（留空=最新一个）"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Resolve release tag
+        id: tag
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          tag="${{ github.event.release.tag_name }}"
+          [ -n "$tag" ] || tag="${{ github.event.inputs.tag }}"
+          [ -n "$tag" ] || tag="$(gh release list --limit 1 --json tagName --jq '.[0].tagName')"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "将同步 release: $tag"
+
+      - name: Download release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p incoming
+          gh release download "${{ steps.tag.outputs.tag }}" --pattern '*' --dir incoming --clobber
+          ls -lh incoming
+
+      - name: Push to Gitee
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config --global user.email "sync-bot@users.noreply.github.com"
+          git config --global user.name "playlist-sync-bot"
+          git clone --depth 1 "https://skipandgoon:${GITEE_TOKEN}@gitee.com/skipandgoon/tv-playlist.git" gitee
+
+          synced=""
+          for f in result.txt result.m3u ipv4.txt ipv4.m3u ipv6.txt ipv6.m3u epg.gz epg.xml; do
+            if [ -f "incoming/$f" ]; then
+              cp -f "incoming/$f" "gitee/$f"
+              synced="$synced $f"
+            fi
+          done
+          echo "已同步文件:$synced"
+
+          cat > gitee/README.md <<'EOF'
+          # tv-playlist
+
+          本仓库由 GitHub Actions 自动同步，内容为 IPTV 播放列表（自动生成，勿手工修改）。
+
+          ## 播放器订阅地址（国内直连，无需代理）
+
+          - 完整列表（推荐）：`https://gitee.com/skipandgoon/tv-playlist/raw/master/result.txt`
+          - M3U 格式：`https://gitee.com/skipandgoon/tv-playlist/raw/master/result.m3u`
+          - 仅 IPv4：`ipv4.txt` / `ipv4.m3u`
+          - 仅 IPv6：`ipv6.txt` / `ipv6.m3u`
+          - 节目单 EPG：`epg.gz` / `epg.xml`
+
+          把上面的 raw 地址粘到播放器的"订阅/自定义直播源"里即可。
+
+          源仓库：https://github.com/skipandgoon/iptv-api
+          EOF
+
+          cd gitee
+          git add -A
+          if git diff --cached --quiet; then
+            echo "内容无变化，跳过提交"
+          else
+            git commit -m "sync: ${{ steps.tag.outputs.tag }} @ $(date -u +%FT%TZ)"
+            git push origin HEAD:master
+            echo "已推送"
+          fi
