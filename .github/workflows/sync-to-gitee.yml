@@ -19,6 +19,10 @@ on:
 permissions:
   contents: read
 
+env:
+  # runner 上不是 git 仓库，gh 无法自动推断 repo → 显式给定
+  GH_REPO: ${{ github.repository }}
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -66,7 +70,7 @@ jobs:
           cat > gitee/README.md <<'EOF'
           # tv-playlist
 
-          本仓库由 GitHub Actions 自动同步，内容为 IPTV 播放列表（自动生成，勿手工修改）。
+          本仓库由 GitHub Actions 自动同步，内容为 IPTV 播放列表（自动生成，请勿手工修改）。
 
           ## 播放器订阅地址（国内直连，无需代理）
 
@@ -76,7 +80,7 @@ jobs:
           - 仅 IPv6：`ipv6.txt` / `ipv6.m3u`
           - 节目单 EPG：`epg.gz` / `epg.xml`
 
-          把上面的 raw 地址粘到播放器的"订阅/自定义直播源"里即可。
+          把上面的 raw 地址粘到播放器的「订阅 / 自定义直播源」里即可。
 
           源仓库：https://github.com/skipandgoon/iptv-api
           EOF
