@@ -2,11 +2,19 @@ name: Sync playlist to Gitee
 
 # 目的：把本仓库每次生成的播放列表产物同步到 Gitee 公开仓
 #   （国内直连、播放器免翻墙；Gitee raw 实测匿名可读）
-# 触发：本仓库发布 Release/预发布（上游 main.yml 每次运行都会发一个 prerelease）
+# 触发说明：
+#   ⚠️ 不能用 `on: release` —— 上游 main.yml 用的是默认 GITHUB_TOKEN 创建 release，
+#      而 GitHub 规定「由 GITHUB_TOKEN 产生的事件不会再触发新 workflow」→ release 事件永远不触发。
+#      所以主触发用 workflow_run（监听生成流程跑完），release 保留作为备用。
+# 触发：① 生成流程 "Generate playlist manually" 跑完 → 自动同步
+#       ② 手动 workflow_dispatch（可指定 tag）
 # 说明：本文件是 fork 新增，不修改上游任何文件 → 同步上游时不冲突
-# 产物源：Release 附件（result/ipv4/ipv6 的 txt+m3u、epg.xml/gz）
+# 产物源：最新 Release 附件（result/ipv4/ipv6 的 txt+m3u、epg.gz/xml）
 
 on:
+  workflow_run:
+    workflows: ["Generate playlist manually"]
+    types: [completed]
   release:
     types: [published, prereleased]
   workflow_dispatch:
@@ -25,6 +33,8 @@ env:
 
 jobs:
   sync:
+    # 上游生成流程失败时不白跑
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -59,12 +69,13 @@ jobs:
           git clone --depth 1 "https://skipandgoon:${GITEE_TOKEN}@gitee.com/skipandgoon/tv-playlist.git" gitee
 
           synced=""
-          for f in result.txt result.m3u ipv4.txt ipv4.m3u ipv6.txt ipv6.m3u epg.gz epg.xml; do
+          for f in result.txt result.m3u ipv4.txt ipv4.m3u ipv6.txt ipv6.m3u epg.gz; do
             if [ -f "incoming/$f" ]; then
               cp -f "incoming/$f" "gitee/$f"
               synced="$synced $f"
             fi
           done
+          # epg.xml 会被 Gitee 内容审核拦截（451 The content may contain violation information），不推它
           echo "已同步文件:$synced"
 
           cat > gitee/README.md <<'EOF'
@@ -78,7 +89,7 @@ jobs:
           - M3U 格式：`https://gitee.com/skipandgoon/tv-playlist/raw/master/result.m3u`
           - 仅 IPv4：`ipv4.txt` / `ipv4.m3u`
           - 仅 IPv6：`ipv6.txt` / `ipv6.m3u`
-          - 节目单 EPG：`epg.gz` / `epg.xml`
+          - 节目单 EPG：`epg.gz`（`epg.xml` 会被 Gitee 审核拦截，故不提供）
 
           把上面的 raw 地址粘到播放器的「订阅 / 自定义直播源」里即可。
 
