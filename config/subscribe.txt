@@ -4,6 +4,7 @@
 # Supports setting UA:
 # https://xxx.com/subscribe.m3u UA="xxx"
 # —— 2026-09-11 精简：删掉超大/重复源（测速耗时从 32 分钟降到 ~15 分钟）——
+https://live.fanmingming.com/tv/m3u/itv.m3u
 https://live.zhi35.com/iptv.m3u
 https://live.zbds.top/tv/iptv4.txt
 https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u
